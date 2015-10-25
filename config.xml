@@ -92,10 +92,10 @@
     <!-- Core plugins -->
 	
 	<!-- Plugins -->
+	<!-- <gap:cordova plugin add cordova-plugin-statusbar /> -->
 	
 	
-	<gap:cordova plugin add cordova-plugin-statusbar />
-	
+	<gap:plugin name="com.phonegap.plugin.statusbar" />
 	<gap:plugin name="cordova-plugin-battery-status" source="npm" />
     <gap:plugin name="cordova-plugin-camera" source="npm" />
     <gap:plugin name="cordova-plugin-media-capture" source="npm" />
